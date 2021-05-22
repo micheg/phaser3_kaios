@@ -3,6 +3,12 @@ This is a Phaser JS III template for Kaios.
 
 This use the simple parcel bundler.
 
+The project is a simple graphic hello world.
+
+Hopefully on your Kaios phone you should see something like:
+
+![preview](http://michelangelo.altervista.org/assets/preview.png)
+
 # How
 Once the repository has been cloned, initialize with:
 
