@@ -2,58 +2,49 @@
     "name": "phaser3_kaios_template",
     "version": "1.0.0",
     "description": "A simple game with phaserjs for kaios",
-    "scripts":
-    {
+    "scripts": {
         "dev": "parcel src/index.dev.html -p 8080",
         "build": "parcel build src/index.html --out-dir dist --no-source-maps"
     },
     "author": "micheg",
-    "keywords":
-    [
+    "keywords": [
         "phaser",
         "phaser3",
         "phaser-boilerplate"
     ],
     "license": "MIT",
-    "repository":
-    {
+    "repository": {
         "type": "git",
         "url": "https://github.com:micheg/phaser3_kaios.git"
     },
     "homepage": "kaios.michelangelog.com",
-    "devDependencies":
-    {
+    "devDependencies": {
         "parcel-bundler": "^1.12.5",
         "parcel-plugin-clean-easy": "^1.0.2",
         "parcel-plugin-html-externals": "^0.3.0",
         "parcel-plugin-static-files-copy": "^2.4.3"
     },
-    "dependencies":
-    {
+    "dependencies": {
         "phaser": "^3.54.0"
     },
-    "parcelCleanPaths":
-    [
+    "parcelCleanPaths": [
         "dist"
     ],
-    "staticFiles":
-    {
-        "staticPath":
-        [
+    "staticFiles": {
+        "staticPath": [
             {
                 "staticPath": "src/assets",
                 "watcherGlob": "**"
             },
             {
-                "staticPath": "src/manifest.webapp.json"
+                "staticPath": "src/manifest.webapp"
             },
             {
                 "staticPath": "src/ads/kaiads.v4.min.js"
             }
         ]
     },
-    "externals":
-    {
+    "externals": {
         "ads/**/*": false
     }
 }
