@@ -1,3 +1,5 @@
+import Phaser from 'phaser'
+
 let config =
 {
     type: Phaser.AUTO,
@@ -22,9 +24,9 @@ let game = new Phaser.Game(config);
 
 function preload ()
 {
-    this.load.image('sky', 'assets/img/space.png');
-    this.load.image('logo', 'assets/img/logo.png');
-    this.load.image('red', 'assets/img/red.png');
+    this.load.image('sky', './img/space.png');
+    this.load.image('logo', './img/logo.png');
+    this.load.image('red', './img/red.png');
 }
 
 function create ()

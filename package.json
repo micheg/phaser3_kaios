@@ -30,5 +30,12 @@
 	"parcelCleanPaths": [
 		"dist"
 	],
-	"externals": ["ads"]
+    "staticFiles":
+    {
+        "staticPath": "src/assets",
+        "watcherGlob": "**"
+    },
+	"externals": [
+		"ads"
+	]
 }
