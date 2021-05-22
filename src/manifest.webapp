@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "name": "Phaser 3 Sample Hello World",
+    "name": "Phaser3.Hello.World",
     "description": "Phaser 3 Sample Game.",
     "type": "web",
     "launch_path": "/index.html",
